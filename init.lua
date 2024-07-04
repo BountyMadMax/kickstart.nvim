@@ -636,6 +636,9 @@ require('lazy').setup({
             },
           },
         },
+        tailwindcss = {
+          filetypes = { 'vue', 'html', 'js', 'svelte' },
+        },
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
